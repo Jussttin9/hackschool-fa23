@@ -1,0 +1,23 @@
+#navbar {
+    background-color: #f9a859;
+    display: flex;
+    justify-content: space-between;     /* aligns items horizontally */
+    align-items: center;                /* aligns items vertically  */
+    margin-bottom: 35px;
+    padding: 25px;
+}
+
+.title a {
+    color: white;
+    font-size: 35px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-buttons a {
+    color: lightblue;
+    font-size: 35px;
+    margin-right: 25px;
+    text-decoration: none;
+}
