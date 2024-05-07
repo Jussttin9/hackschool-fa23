@@ -11,7 +11,28 @@ For the card:
 */
 
   width: 350px;
+  min-height: 150px;
+  border: solid orange 2px;
+  border-radius: 10px;
+  margin: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  min-height: 150px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*
@@ -22,3 +43,8 @@ For the content inside the card:
 /*
 Bonus: Enlarge the card when you hover over it!
 */
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 2px 1px rgb(76, 54, 14);
+}
